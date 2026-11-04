@@ -1,0 +1,27 @@
+# generated / downloaded NVIDIA material - never commit
+assets/
+assets.src/
+cache/
+build/
+
+# kernel build artifacts
+*.ko
+*.ko.*
+*.o
+*.mod
+*.mod.c
+*.cmd
+.tmp_versions/
+Module.symvers
+modules.order
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# tool state
+.mimosa/
+
+# local benchmark output is kept (bench-results.json); nothing else
